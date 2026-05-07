@@ -1,0 +1,14 @@
+:root{
+  --clr-pri-green: hsl(171, 66%, 44%);
+  --clr-pri-blue: hsl(233, 100%, 69%);
+
+  --clr-neu-gray: hsl(210, 10%, 33%);
+  --clr-neu-gray: hsl(201, 11%, 66%);
+
+  --font-family: 'Bai Jamjuree';
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -2,8 +2,8 @@
   --clr-pri-green: hsl(171, 66%, 44%);
   --clr-pri-blue: hsl(233, 100%, 69%);
 
-  --clr-neu-gray: hsl(210, 10%, 33%);
-  --clr-neu-gray: hsl(201, 11%, 66%);
+  --clr-neu-gray1: hsl(210, 10%, 33%);
+  --clr-neu-gray2: hsl(201, 11%, 66%);
 
   --font-family: 'Bai Jamjuree';
 }
@@ -11,4 +11,160 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+}
+h1, h2{
+  color: var(--clr-neu-gray1);
+  font-weight: 600;
+}
+p{
+  color: var(--clr-neu-gray2);
+  font-weight: 400;
+}
+header{
+  background: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.logo-container{
+  width: 100%;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+section{
+  width: 100%;
+}
+.history{
+  padding: 50px 20px;
+  text-align: center;
+}
+.history h1{
+  padding-bottom: 20px;
+}
+.history p{
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.history button, .clipboard button{
+  font-size: 1.125rem;
+  font-weight: 600;
+  display: block;
+  padding: 25px 80px;
+  color: #fff;
+  margin: 0 auto 20px;
+  border: none;
+  border-radius: 40px;
+}
+.history button:nth-of-type(1), .clipboard button:nth-of-type(1) {
+  background-color: var(--clr-pri-green);
+}
+.history button:nth-of-type(2), .clipboard button:nth-of-type(2){
+  background-color: var(--clr-pri-blue);
+}
+.track{
+  padding: 50px 30px ;
+  text-align: center;
+}
+.track h1 {
+  padding-bottom: 20px;
+}
+.track p{
+  line-height: 30px;
+}
+.image-container{
+  margin-bottom: 80px;
+}
+.image{
+  width: 80%;
+  margin: 0 auto;
+}
+.image img{
+  width: 100%;
+}
+.features-div {
+  padding: 20px 30px;
+}
+.features-div div{
+  text-align: center;
+}
+.features-div div h2{
+  font-weight: 600;
+  padding: 20px 0;
+}
+.features-div div p{
+  line-height: 30px;
+}
+.access{
+  padding: 20px 30px;
+  text-align: center;
+}
+.access h2{
+  padding-bottom: 20px;
+}
+.access p{
+  line-height: 30px;
+}
+.image2{
+  width: 85%;
+  margin: 0 auto;
+}
+.image2 img{
+  width: 100%;
+}
+.image-container2{
+  margin-bottom: 50px;
+}
+.tools h2, .tools p{
+  padding: 0 30px;
+  text-align: center;
+}
+.tools h2{
+  padding-bottom: 20px;
+}
+.tools div img{
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.tools p{
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+.company-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.clipboard{
+  padding: 20px 20px;
+  text-align: center;
+}
+.clipboard p{
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: var(--clr-neu-gray2);
+}
+.social-icons{
+  display: flex;
+justify-content: space-between;
 }

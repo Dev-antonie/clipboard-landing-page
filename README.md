@@ -17,7 +17,7 @@ This is a Responsive clipboard landing page built with html and css.
 
 ### Links
 
-- Live Site URL: [Add live site URL here] https://dev-antonie.github.io/clipboard-landing-page/)
+- Live Site URL: [Add live site URL here] (https://dev-antonie.github.io/clipboard-landing-page/)
 
 
 

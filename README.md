@@ -13,12 +13,11 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Author](#author)
 
 ## Overview
-This is clipboard landing page built with html and css.
+This is a Responsive clipboard landing page built with html and css.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here] https://dev-antonie.github.io/clipboard-landing-page/)
 
 
 
